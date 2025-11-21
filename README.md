@@ -1,5 +1,8 @@
 # Linear CLI
 
+[![npm version](https://badge.fury.io/js/@scmfury%2Flinear-cli.svg)](https://www.npmjs.com/package/@scmfury/linear-cli)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
 A modern command-line interface for Linear that brings powerful issue management directly to your terminal.
 
 **Features:** Advanced filtering with exclusions, smart sorting, native Linear colors, and an intuitive interface inspired by GitHub CLI.
@@ -50,11 +53,28 @@ A modern command-line interface for Linear that brings powerful issue management
 
 ## Installation
 
-### Clone and Build
+### npm (Recommended)
+
+Install globally via npm:
+
+```bash
+npm install -g @scmfury/linear-cli
+```
+
+Verify installation:
+
+```bash
+linear --version
+linear --help
+```
+
+### From Source (Development)
+
+For development or contributing:
 
 ```bash
 # Clone the repository
-git clone <repository-url>
+git clone https://github.com/otaviosoaresp/linear-cli.git
 cd linear-cli
 
 # Install dependencies
@@ -65,13 +85,6 @@ npm run build
 
 # Link globally (makes 'linear' command available)
 npm link
-```
-
-### Verify Installation
-
-```bash
-linear --version
-linear --help
 ```
 
 ---

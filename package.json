@@ -1,5 +1,5 @@
 {
-  "name": "linear-cli",
+  "name": "@scmfury/linear-cli",
   "version": "0.1.0",
   "description": "A modern command-line interface for Linear with advanced filtering, sorting, and native color support",
   "main": "dist/index.js",
@@ -26,6 +26,14 @@
   ],
   "author": "Otavio Soares",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/otaviosoaresp/linear-cli.git"
+  },
+  "bugs": {
+    "url": "https://github.com/otaviosoaresp/linear-cli/issues"
+  },
+  "homepage": "https://github.com/otaviosoaresp/linear-cli#readme",
   "dependencies": {
     "@linear/sdk": "^35.0.0",
     "commander": "^12.0.0",

@@ -1,0 +1,13 @@
+src/
+tsconfig.json
+.git/
+.gitignore
+node_modules/
+*.log
+.DS_Store
+.env
+test-colors.js
+RELEASE.md
+*.tsbuildinfo
+.vscode/
+.idea/
