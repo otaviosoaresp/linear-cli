@@ -1,7 +1,7 @@
 {
   "name": "linear-cli",
   "version": "0.1.0",
-  "description": "Command-line interface for Linear",
+  "description": "A modern command-line interface for Linear with advanced filtering, sorting, and native color support",
   "main": "dist/index.js",
   "bin": {
     "linear": "./dist/index.js"
@@ -14,9 +14,17 @@
   "keywords": [
     "linear",
     "cli",
-    "issue-tracking"
+    "command-line",
+    "typescript",
+    "issue-tracking",
+    "project-management",
+    "linear-app",
+    "developer-tools",
+    "productivity",
+    "terminal",
+    "graphql"
   ],
-  "author": "",
+  "author": "Otavio Soares",
   "license": "MIT",
   "dependencies": {
     "@linear/sdk": "^35.0.0",
